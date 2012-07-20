@@ -4,6 +4,7 @@
 call pathogen#infect()
 colorscheme vividchalk
 
+filetype plugin indent on
 set nocompatible
 
 set modelines=0
