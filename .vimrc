@@ -2,7 +2,7 @@
 "http://stevelosh.com/blog/2010/09/coming-home-to-vim/#making-vim-more-useful
 
 call pathogen#infect()
-colorscheme vividchalk
+colorscheme vibrantink
 
 filetype plugin indent on
 set nocompatible
