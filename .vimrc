@@ -29,7 +29,6 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
-set undofile
 
 nnoremap / /\v
 vnoremap / /\v
