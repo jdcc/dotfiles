@@ -9,9 +9,9 @@ set nocompatible
 
 set modelines=0
 
-set shiftwidth=4
-set tabstop=4
-set softtabstop=4
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
 set expandtab
 
 set encoding=utf-8
@@ -42,6 +42,9 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
+" Show the tagbar
+nnoremap <leader>] :TagbarToggle<cr><C-w>l:set rnu<cr>
+
 set wrap
 set textwidth=79
 set formatoptions=qrn1
@@ -51,3 +54,5 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+autocmd FileType py :setlocal sw=4 ts=4 sts=4
